@@ -17,6 +17,7 @@ Instructions on how to install the required libraries.
 
 ```bash
 pip install langchain openai PyPDF2 faiss-cpu tiktoken
+```
 
 ### Usage
 To use this tool, follow these steps:

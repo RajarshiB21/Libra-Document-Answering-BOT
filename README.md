@@ -17,3 +17,16 @@ Instructions on how to install the required libraries.
 
 ```bash
 pip install langchain openai PyPDF2 faiss-cpu tiktoken
+
+### Usage
+To use this tool, follow these steps:
+
+1. **Open the Code File**: Open the Python script in your environment.
+2. **Upload Your Document**: Upload the PDF document you want to analyze.
+3. **Modify the Script for Your Document**:
+   - Locate the line `pdfreader = PdfReader('YOUR PDF FILE HERE')`.
+   - Replace `'YOUR PDF FILE HERE'` with the name of your uploaded PDF file. Ensure the file name is enclosed in quotes.
+4. **Use the GUI**:
+   - Scroll to the end of the code file where the GUI code is located.
+   - Run the script. A text box and a submit button will appear in your Jupyter notebook interface.
+   - Type your question into the text box and click the submit button to get an answer based on the content of your PDF.
